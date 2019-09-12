@@ -31,8 +31,6 @@ public class UserLoginControl {
 
     /*
     映射关系：要求实体类的属性名和前台页面的表单控件的name属性值一一对应
-    课堂作业：
-        如果使用 @RequestParam 对方法参数进行绑定，是否可行？
      */
     @RequestMapping("/login3")
     public String doLogin3(UserInfoBean userInfoB) {
